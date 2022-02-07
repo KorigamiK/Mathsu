@@ -1,0 +1,11 @@
+{
+  "cmake.buildDirectory": "${workspaceFolder}/build/${buildKit}/${buildType}",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "doxygen_runner.configuration_file_override": "${workspaceFolder}/docs/doxygen/Doxyfile",
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "iostream": "cpp"
+  }
+}
