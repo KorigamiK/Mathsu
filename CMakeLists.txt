@@ -46,6 +46,7 @@ if(PLATFORM_PSP)
     message(STATUS "Building for PSP!")
 else()  
     message("Build Desktop!")
+    target_link_libraries(${PROJECT_NAME} PRIVATE SDL2main SDL2)
     set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "bin")
 endif()
 

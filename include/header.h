@@ -6,3 +6,8 @@ enum super
     b,
     c
 };
+
+int x()
+{
+    return 1;
+};

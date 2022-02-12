@@ -7,5 +7,6 @@ int main()
 {
     print("Hello world");
     print(c);
+    x();
     return 0;
 }
